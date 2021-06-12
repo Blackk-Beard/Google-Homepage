@@ -1,0 +1,133 @@
+body{background-color: whitesmoke; font-family: Arial, Helvetica, sans-serif;
+     margin: 0px; /*position: relative;*/ }
+
+ul
+{
+  border: 0px solid black; 
+  padding: 14px 20px; padding-right: 20px; 
+  text-align: right;
+  box-sizing: content-box;
+  margin-right: 40px ; 
+}
+ul li
+ {
+    display: inline-block; 
+    margin: 10px;
+    text-decoration-line: none;
+ }
+ ul li a
+ {
+   color: rgba(26, 25, 25, 0.9);
+   text-decoration-line: none;
+   font-size: 12.5px; 
+}
+ul li a img
+{
+   border:0px solid black ;
+   padding: 20px;
+  opacity: 0.5;
+}
+
+ul li span
+ {
+   font-family: 'Oxygen', sans-serif;
+   font-weight: 900;
+   font-size: 11.6px; 
+   color: white; 
+   background-color: rgba(0, 0, 0, 0.692); 
+   padding: 5px 5px 8px 5px ; border-radius: 5px;
+   letter-spacing: 1.2px;
+    visibility: hidden;
+    z-index: 1;
+  }
+
+ div
+ {
+    border: 0px solid black; 
+    position: absolute; height: 760px;
+    left:680px ; top: 164px ; 
+    text-align: center;  
+    box-sizing:content-box;
+ }
+ div #google-png
+ {
+  float: center;
+  margin-bottom: 40px;
+ }
+ div #search-bar
+ {
+    width:560px ; padding: 12.7px; border:white ;
+    border-radius: 60px ;
+    outline: 0px;margin-bottom: 28px;
+    box-shadow:1px 1px 4px 0.5px grey ;
+    font-weight: 500; 
+    font-size: 16px;
+    padding-left: 50px; padding-right: 45px;
+ } 
+ div #search-btn
+  {
+    width: 150px;  
+    margin: 0px 40px;margin-left: 10px; border: none ;
+    outline: 0.1px solid rgba(0, 0, 0, 0.479); 
+    padding: 5px;  
+  }
+  div #luck-btn
+  {
+    width: 140px;  
+    margin: 0px 10px;
+    padding: 5px;  
+    border: none; 
+    outline: 0.1px solid rgba(0, 0, 0, 0.479); border-radius: 3px;
+  }
+  
+  
+ div #img1 
+  {
+   position: relative;  
+   left: 44px;top: 8px;
+  }
+ div #img2 
+  {
+   position: relative;
+   right: 44px;top: 8px;
+  }
+ 
+  div1 #shortcut-img
+  {
+    padding: 28px;
+    clip-path: circle(32% at 50% 50%);
+    background-color: rgba(255, 255, 255, 0.664);
+  }
+  div div1
+  {clear: both;
+   border: 0px solid black; 
+   position: relative;
+   left: 6px;
+   padding-top: 70px;
+   padding-bottom: 32px;
+   padding-right: 18px;
+   padding-left: 18px;
+   border-radius: 3%;
+  }
+  
+ 
+ @media screen and (max-width: 2000px) {
+    div
+    {
+     position: sticky;
+     left: 22%;     
+    }
+   }
+
+ @media screen and (max-width: 700px) {
+    div
+    {
+      width: 90%; 
+      position: sticky;
+      left: 5%;  
+    }
+   div #search-bar
+   {
+     width: 85%;  
+   }
+    }
