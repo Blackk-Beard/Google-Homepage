@@ -1,3 +1,8 @@
+#sign:hover
+{
+  color:  white;
+  cursor: pointer;
+}
 ul li a:hover
 {
   color: rgba(46, 44, 44, 0.9);
@@ -20,6 +25,16 @@ ul li:hover span
 div #search-bar:focus::placeholder
 {
   color: transparent;
+}
+
+div #img1:hover
+{
+  cursor: pointer;
+}
+
+div #img2:hover
+{
+  cursor: pointer;
 }
 
 div input[type="button"]:hover ,input[type="submit"]:hover
@@ -46,13 +61,13 @@ div div1:hover
  div div2:hover
  {
   cursor: pointer;
-  color: rgb(0, 140, 255);
+  background-color: rgb(229, 226, 226);
  }
  
  div div2:active
  { 
   cursor: pointer; 
-  box-shadow: 0px 0px 0px 0px gray;
+  box-shadow:1px 1px 4px 0.5px rgb(229, 226, 226)y ;
   background: var(--active-bg);
  }
  
