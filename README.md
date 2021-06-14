@@ -1,3 +1,3 @@
-Made Google Clone with HTML and CSS.
+Made Google Homepage Clone with HTML and CSS.
 
-<a rel="stylesheet" href="https://blackk-beard.github.io/Google-Homepage/" target="blank"> LIVE DEMO </a>
+<a href="https://blackk-beard.github.io/Google-Homepage/" target="blank"> LIVE DEMO </a>
